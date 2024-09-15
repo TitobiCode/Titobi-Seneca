@@ -17,7 +17,7 @@ export interface Question {
       questionText: 'Which of these is a planet?',
       optionSets: [
         { options: ['Mars', 'Moon', 'Pluto'], correct: 0 },
-        { options: ['Earth', 'Sun', 'Mercury'], correct: 0 }
+        { options: ['Earth', 'Sun', 'Phobos'], correct: 0 }
       ]
     },
     {
