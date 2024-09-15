@@ -2,6 +2,8 @@ This project is an educational game. The premise of this game is an interactive 
  
 The order of the questions is randomised, and imported from a different page, to allow one to easily add and change questions in the future.
 
+The questions are in a separate file and have been imported into the App file so there is a clear separation between logic and the data (questions and answers). In addition, scalability is improved as questions can easily be added/modified, or the whole file can be changed without touching the application logic. The question file can even be copied and used in another game.
+
 Built with TypeScript and React
  
 Assumptions I have made:
